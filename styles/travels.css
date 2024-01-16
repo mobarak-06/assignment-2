@@ -1,42 +1,55 @@
-/* nav section */
-span{
-    color: #FF5400;
-    font-family: Mulish;
-    font-size: 36px;
-    font-weight: 800;
+
+
+.logo{
+    display: flex;
+    gap: 10px;
+    margin-left: 165px;
 }
-.title{
-    color: #131318;
-    font-family: Mulish;
-    font-size: 36px;
-    font-weight: 800;
+.sub-title{
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+    color: var(--Dark-02, #424247);
+   text-align: center;
+   font-family: Mulish;
+   font-size: 18px;
+   font-weight: 400;
+   padding-top: 30px;
+    
+    
+}
+.sub-title > li{
+    margin-right: 44px;
 }
 nav{
     display: flex;
     justify-content: space-between;
 }
-.sub-title{
-    display: flex;
-    color: var(--Dark-02, #424247);
+.title{
+    color: #131318;
 font-family: Mulish;
-font-size: 18px;
-font-weight: 400;
+font-size: 36px;
+font-weight: 800;
 }
-.sub-title li{
-    list-style: none;
+span{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
 }
 .rong{
- color: #FF5400;
- font-family: Mulish;
- font-size: 18px;
- font-weight: 700;
+    color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
 }
-.nav-main{
+.sub-main{
     width: 1170px;
-height: 500px;
-flex-shrink: 0;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-background-image:url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-background-repeat: no-repeat;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    margin: 0 auto;
 }
